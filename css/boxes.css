@@ -1,0 +1,21 @@
+body {
+    font-family: Arail, Helvetica, Sans-Serif;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 5px dotted red;
+
+    /*one cell on next to each other*/
+    display: flex; /*display as a one row flex boxes*/
+    flex-direction: column; /*display as a one column flex boxes*/
+    flex-direction: row-reverse; /*display as a reverse order one row flex boxes*/
+}
+li {
+    border: 5px solid #999;
+    margin: 0.5em;
+    padding: 0.5em;
+}
+ /*when use the wrapper the cells lay on the top of the wrapper box*/
+/*grid gap is the space between grid cells*/
